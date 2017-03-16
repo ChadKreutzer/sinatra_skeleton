@@ -1,0 +1,6 @@
+*.sqlite3
+*.swp
+tmp
+logs
+/.bundle
+/.c9
