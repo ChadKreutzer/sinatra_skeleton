@@ -1,10 +1,10 @@
-require 'sinatra/base'
-require 'sinatra/reloader'
+# require 'sinatra/base'
+# require 'sinatra/reloader'
 
 class MyApp < Sinatra::Base
-  configure :development do
-    register Sinatra::Reloader
-  end
+  # configure :development do
+  #   register Sinatra::Reloader
+  # end
   
   get "/" do
     erb :index
