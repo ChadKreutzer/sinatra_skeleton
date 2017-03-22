@@ -1,8 +1,9 @@
 require 'sinatra/base'
-require 'sinatra/reloader' if ENV['RACK_ENV'] == 'development'
+# require 'sinatra/reloader' if ENV['RACK_ENV'] == 'development'
 
 class MyApp < Sinatra::Base
   configure :development do
+    require 'sinatra/reloader'
     register Sinatra::Reloader
   end
   
