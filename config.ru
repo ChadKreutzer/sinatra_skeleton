@@ -7,13 +7,16 @@ require './app'
 use Rack::MethodOverride
 
 map '/assets/' do
+  
   environment = Sprockets::Environment.new
   environment.js_compressor  = :uglify
   environment.css_compressor = :scss
-  environment.append_path 'assets/javascripts'
-  environment.append_path 'assets/stylesheets'
-  environment.append_path 'assets/fonts'
-  environment.append_path 'public/images'
+  ASSET_PATH =  [ 'assets/javascripts',
+                  'assets/stylesheets',
+                  'assets/fonts',
+                  'public/images'
+                ]
+  ASSET_PATH.each { |path_name| environment.append_path path_name }
   run environment
 end
 
