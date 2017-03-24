@@ -6,7 +6,7 @@ require './app'
 
 use Rack::MethodOverride
 
-map '/assets/' do
+map '/assets' do
   
   environment = Sprockets::Environment.new
   environment.js_compressor  = :uglify

@@ -14,4 +14,3 @@ with both Sinatra and Rails, check out
 
 I hope this was helpful.
 [Chad Kreutzer](http://www.chadkreutzer.com/)
-
