@@ -20,8 +20,5 @@ I hope this was helpful.
 
 *don't forget to run bundle install*
 
-There is sample content already set up to show you where things go and how to
-configure things, but feel free to replace it all when using the skeleton.
-
 The project is preconfigured for testing using rspec. Place your tests in the
 spec folder and just run `rake` to to run your tests.
