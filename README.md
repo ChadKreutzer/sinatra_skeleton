@@ -1,4 +1,4 @@
-# Project Title Goes Here
+# Simple Sinatra Skeleton
 
 This is my default Sinatra setup with Bootstrap, jQuery and Font Awesome all
 good to go.
@@ -17,3 +17,11 @@ with both Sinatra and Rails, check out
 
 I hope this was helpful.
 [Chad Kreutzer](http://www.chadkreutzer.com/)
+
+*don't forget to run bundle install*
+
+There is sample content already set up to show you where things go and how to
+configure things, but feel free to replace it all when using the skeleton.
+
+The project is preconfigured for testing using rspec. Place your tests in the
+spec folder and just run `rake` to to run your tests.
